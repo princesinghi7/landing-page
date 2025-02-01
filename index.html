@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Login Section -->
+  <div id="login-page">
+    <div class="login-container">
+      <h2>Welcome Back</h2>
+      <p class="subtitle">Please log in to continue</p>
+      <form id="login-form">
+        <div class="form-group">
+          <input type="email" id="email" placeholder="Email Address" required>
+        </div>
+        <div class="form-group">
+          <input type="password" id="password" placeholder="Password" required>
+        </div>
+        <button type="submit" class="btn">Login</button>
+        <p class="forgot-password"><a href="#">Forgot Password?</a></p>
+      </form>
+    </div>
+  </div>
+
+  <!-- Main Content Section -->
+  <div id="main-content" style="display: none;">
+    <nav class="navbar">
+      <ul class="menu">
+        <li class="menu-item"><a href="#home">Home</a></li>
+        <li class="menu-item"><a href="#about">About</a></li>
+        <li class="menu-item"><a href="#services">Services</a></li>
+        <li class="menu-item"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="home" class="section">Welcome to the Home Section</section>
+    <section id="about" class="section">Learn More About Us</section>
+    <section id="services" class="section">Explore Our Services</section>
+    <section id="contact" class="section">Get in Touch</section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
